@@ -49,3 +49,11 @@ next.addEventListener('click', function(){
     console.log('aggiungo active al prossimo elemento');
     
 });
+const prev = document.getElementById('prev');
+prev.addEventListener('click', function(){
+    console.log('click su prev');
+    console.log('tolgo la classe active dal elemento attivo');
+    console.log('aggiungo active al elemento precedente');
+    
+});
+
