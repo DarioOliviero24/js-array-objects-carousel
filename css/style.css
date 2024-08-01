@@ -5,8 +5,15 @@
     box-sizing: border-box;
 }
 /*GENERALI*/
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
-    max-width: 1000px;
+    width: 1000px;
+    height: 500px;
     margin: 0 auto;
 }
 .image{
