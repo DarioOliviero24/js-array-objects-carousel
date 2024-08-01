@@ -41,3 +41,11 @@ const array = [
 for ( let i = 0; i < array.length; i++){
     console.log(array[i]);
 };
+
+const next = document.getElementById('next');
+next.addEventListener('click', function(){
+    console.log('click su next');
+    console.log('tolgo la classe active dal elemento attivo');
+    console.log('aggiungo active al prossimo elemento');
+    
+});
